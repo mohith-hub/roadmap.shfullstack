@@ -1,0 +1,105 @@
+.body{
+    background-color:#232830
+}
+.header{
+    color:white;
+    
+     
+}
+ 
+.div .h1{
+    color :#ff7575;
+    font-family:monospace;
+}
+.div .h5{
+    color :white;
+}
+.div{
+    margin-top:225px;
+    text-align:center;
+   
+}
+.p{
+    color:#4D4D4D;
+    text-align: center;
+}
+.smallheadings{
+    color:white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 225px 225px 225px;
+    justify-content: center;
+    column-gap: 15px;
+    margin-bottom: 30px;
+    
+}
+.smallheadings > div{
+    border-radius: 10px;
+}
+.smallheadings >div:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.smallheadings > div >div{
+    border-radius: 10px;
+}
+.smallheadings >div > div>b{
+    color:black;
+}
+.smallheadings >div >div>h5{
+    color :#0f1217;
+}
+.smallheadings >div >div>p{
+    color:gray;
+    padding-left: 0px;
+}
+
+
+.sideheadings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    
+     
+
+}
+.sideheadings .p{
+    margin-top: 0px;
+}
+.sideheadings .navlinks{
+    display: flex;
+    column-gap: 10px;
+    justify-content: flex-end;
+}
+.imageoptimization{
+  object-fit: contain;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  height: auto;            /* desired widget height */
+  width: 190px;             /* desired widget width */
+  background:white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  margin: 10px 20px 20px 20px; 
+   
+}
+.p2{
+    color:white;
+    display: inline;
+}
+.mainlogo{
+    padding-left: 50px;
+}
+button{
+    color :white;
+    background-color: #4699e0;
+    border-radius:3px;
+}
+.secondbutton{
+    color :white;
+    background-color: #4699e0;
+    border-radius:3px;
+    margin-left: 1200px;
+}
